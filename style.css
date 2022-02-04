@@ -1,0 +1,135 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  background: #114357; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f29492,
+    #114357
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f29492,
+    #114357
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+#dynamicDiv {
+  margin: 20px;
+  border-radius: 12px;
+  border: solid black 1px;
+  padding: 10px;
+  width: 50%;
+  color: white;
+  background: #114357; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f29492,
+    #114357
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f29492,
+    #114357
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 1.4rem;
+}
+.specialDiv {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.newBookForm {
+  color: White;
+  font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  box-shadow: 1px 13px 8px 0px rgba(0, 0, 0, 0.5);
+  padding: 3%;
+}
+
+label {
+  display: flex;
+  margin: 10px auto;
+}
+input {
+  border-radius: 10px;
+  border: none;
+  color: black;
+  font-size: 1.1rem;
+  margin-left: 4px;
+}
+#newBook {
+  width: 20vw;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.4rem;
+
+  background-color: white;
+  color: black;
+  position: relative;
+  margin: 10px auto;
+}
+header {
+  display: block;
+  min-height: auto;
+  min-width: 100%;
+  background: #114357; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f29492,
+    #114357
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f29492,
+    #114357
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.dynamWidth {
+  width: 60%;
+}
+.mainBtn {
+  display: grid;
+}
+#displayForm {
+  margin: 20px;
+  width: 30vw;
+  height: 10vh;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.4rem;
+
+  background-color: white;
+  color: black;
+  position: relative;
+  margin: 10px auto;
+}
+.header-container {
+  display: block;
+  min-width: 100%;
+}
+button:hover {
+  background-color: cyan;
+}
