@@ -9,7 +9,11 @@ newBookForm.style.display = 'none';
 mainBtn = document.querySelector(".mainBtn")
 specialDiv = document.querySelector(".specialDiv")
 
-let myLibrary = [];
+class myLibrary{
+  constructor(){
+    this.Books = []
+  }
+}
 newBook.addEventListener("click", function (){
   let newDiv = document.createElement("div");
   newDiv.id = "dynamicDiv";
@@ -55,11 +59,13 @@ newBook.addEventListener("click", function (){
 });
 
 
-function Book(){
+class Book{
+  constructor(title, author, pages, read) {
   this.title = title;
   this.author = author;
   this.pages = pages;
-  this.read = read; 
+  this.read = read;
+  }
 };
 
 function displayLibrary() {
